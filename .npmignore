@@ -1,0 +1,10 @@
+src/
+tsconfig.json
+tsup.config.ts
+jest.config.js
+.eslintrc.js
+.prettierrc
+.gitignore
+*.log
+coverage/
+node_modules/
