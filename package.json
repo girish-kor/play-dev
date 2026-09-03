@@ -1,7 +1,7 @@
 {
-  "name": "playdev",
+  "name": "play-dev",
   "version": "1.0.0",
-  "description": "PLAYDEV: The ultimate React UI component library for building professional game interfaces (HUD, menus, inventory) and developer tools. Optimized for performance, accessibility, and rapid game development.",
+  "description": "PLAY-DEV: The ultimate React UI component library for building professional game interfaces (HUD, menus, inventory) and developer tools. Optimized for performance, accessibility, and rapid game development.",
   "keywords": [
     "react",
     "ui",
@@ -15,13 +15,13 @@
     "react-hooks",
     "typescript"
   ],
-  "homepage": "https://github.com/girish-kor/playdev#readme",
+  "homepage": "https://github.com/girish-kor/play-dev#readme",
   "bugs": {
-    "url": "https://github.com/girish-kor/playdev/issues"
+    "url": "https://github.com/girish-kor/play-dev/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/girish-kor/playdev.git"
+    "url": "git+https://github.com/girish-kor/play-dev.git"
   },
   "license": "MIT",
   "author": {

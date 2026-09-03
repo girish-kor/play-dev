@@ -34,7 +34,7 @@ const MenuTitle = styled.h1`
 export const MainMenu: React.FC<MainMenuProps> = ({
   version,
   backgroundImage,
-  title = 'PLAYDEV',
+  title = 'PLAY-DEV',
   onStart,
   onLoad,
   onSettings,

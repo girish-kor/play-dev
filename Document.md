@@ -1,4 +1,4 @@
-# PlayDev API Reference
+# Play-Dev API Reference
 
 | Name | Kind | Category | Props / Params |
 |---|---|---|---|

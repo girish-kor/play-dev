@@ -7,9 +7,11 @@ describe('Portal', () => {
     render(
       <Portal>
         <div>Portal content</div>
-      </Portal>
+      </Portal>,
     );
     expect(screen.getByText('Portal content')).toBeInTheDocument();
-    expect(document.getElementById('playdev-portal')).toContainElement(screen.getByText('Portal content'));
+    expect(document.getElementById('play-dev-portal')).toContainElement(
+      screen.getByText('Portal content'),
+    );
   });
 });

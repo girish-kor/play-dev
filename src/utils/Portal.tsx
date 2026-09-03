@@ -6,7 +6,7 @@ interface PortalProps {
   containerId?: string;
 }
 
-export const Portal: FC<PortalProps> = ({ children, containerId = 'playdev-portal' }) => {
+export const Portal: FC<PortalProps> = ({ children, containerId = 'play-dev-portal' }) => {
   const [container, setContainer] = useState<HTMLElement | null>(null);
 
   useEffect(() => {

@@ -1,4 +1,4 @@
-# PLAYDEV: The Premier React UI Component Library for Game Development
+# PLAY-DEV: The Premier React UI Component Library for Game Development
 
 <div align="left">
   <br />
@@ -13,20 +13,20 @@
   <br />
 </div>
 
-![PlayDev](./banner.png)
+![Play-Dev](./banner.png)
 
-**PLAYDEV** is a comprehensive, mature, and enterprise-grade React component system designed for building immersive game interfaces. It provides over 60+ production-ready components, powerful hooks, and a strict separation of concerns between runtime game UI (PlayMode) and development tooling (DevMode).
+**PLAY-DEV** is a comprehensive, mature, and enterprise-grade React component system designed for building immersive game interfaces. It provides over 60+ production-ready components, powerful hooks, and a strict separation of concerns between runtime game UI (PlayMode) and development tooling (DevMode).
 
-[![npm version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com/package/playdev)
+[![npm version](https://img.shields.io/badge/npm-v1.0.0-blue)](https://www.npmjs.com/package/play-dev)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![types](https://img.shields.io/badge/types-TypeScript-blue)](https://www.typescriptlang.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 ---
 
-## Why PLAYDEV?
+## Why PLAY-DEV?
 
-Building a game's UI in React often means reinventing the wheel—creating health bars, inventory grids, dialogue systems, and debug overlays for each new project. PLAYDEV eliminates this repetitive work by offering a suite of **battle-tested, accessible, and highly customizable components**, allowing you to focus on your game's unique mechanics and content.
+Building a game's UI in React often means reinventing the wheel—creating health bars, inventory grids, dialogue systems, and debug overlays for each new project. PLAY-DEV eliminates this repetitive work by offering a suite of **battle-tested, accessible, and highly customizable components**, allowing you to focus on your game's unique mechanics and content.
 
 - **PlayMode & DevMode**: A strict architectural split ensures that debug components (inspector, console) are never bundled into your production game.
 - **Theming**: A centralized `DesignTokens` system via `ThemeProvider` allows for complete visual rebranding with minimal effort.
@@ -52,9 +52,9 @@ Building a game's UI in React often means reinventing the wheel—creating healt
 Install the package along with its peer dependencies:
 
 ```bash
-npm install playdev react react-dom styled-components
+npm install play-dev react react-dom styled-components
 # or
-yarn add playdev react react-dom styled-components
+yarn add play-dev react react-dom styled-components
 ```
 
 ## Quickstart
@@ -63,7 +63,7 @@ Get a health bar and button on screen in seconds:
 
 ```tsx
 import React from 'react';
-import { ThemeProvider, GameStateProvider, HealthBar, Button } from 'playdev';
+import { ThemeProvider, GameStateProvider, HealthBar, Button } from 'play-dev';
 
 const App = () => {
   return (
@@ -92,7 +92,7 @@ For a complete list of components, hooks, and their APIs, please refer to the de
 
 ## Testing
 
-PLAYDEV is extensively tested using Jest and React Testing Library.
+PLAY-DEV is extensively tested using Jest and React Testing Library.
 
 ```bash
 npm test
@@ -100,7 +100,7 @@ npm test
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](https://github.com/girish-kor/playdev/blob/main/CONTRIBUTING.md) for more details.
+We welcome contributions! Please see our [Contributing Guidelines](https://github.com/girish-kor/play-dev/blob/main/CONTRIBUTING.md) for more details.
 
 1.  Fork the repository.
 2.  Create your feature branch (`git checkout -b feature/amazing-feature`).

@@ -30,4 +30,4 @@ If applicable, add screenshots to help explain your problem.
 - OS: [e.g., Windows 11]
 - Browser: [e.g., Chrome 120]
 - Node version: [e.g., 20.0.0]
-- PLAYDEV version: [e.g., 1.0.0]
+- PLAY-DEV version: [e.g., 1.0.0]

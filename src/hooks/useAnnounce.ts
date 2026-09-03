@@ -5,7 +5,7 @@ export function useAnnounce() {
 
   const announce = (message: string, politeness: 'polite' | 'assertive' = 'polite') => {
     if (typeof window !== 'undefined') {
-      const announcer = document.getElementById('playdev-announcer');
+      const announcer = document.getElementById('play-dev-announcer');
       if (announcer) {
         announcer.setAttribute('aria-live', politeness);
         announcer.textContent = message;

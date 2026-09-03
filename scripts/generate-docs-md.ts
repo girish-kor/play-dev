@@ -156,5 +156,5 @@ const lines = [
   ),
 ];
 
-writeFileSync(OUT, `# PlayDev API Reference\n\n${lines.join('\n')}\n`);
+writeFileSync(OUT, `# Play-Dev API Reference\n\n${lines.join('\n')}\n`);
 console.log(`docs.md written: ${rows.length} entries`);
